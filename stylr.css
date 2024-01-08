@@ -1,0 +1,92 @@
+body{
+    background-color: aqua;
+}
+.boxes{
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 150px;
+    border-radius: 15px;
+    border: 15px solid rgb(106, 106, 51);
+    position: relative;
+}
+.boxes::after{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black;
+    top: -5%;
+    right: 97%;
+    border: 5px solid green;
+}
+.boxes::before{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black;
+    top: -5%;
+    left: 97%;
+    border: 5px solid green;
+}
+.boxes1{
+    position: relative;
+    width: 700px;
+    height: 400px;
+}
+.boxes1::after{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black;
+    bottom: -6%;
+    right: 97%;
+    border: 5px solid green;
+}
+.boxes1::before{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black; 
+    bottom: -6%; 
+    left: 97%;
+    border: 5px solid green;
+}
+.boxes2{
+    position: relative;
+    width: 700px;
+    height: 400px;
+}
+.boxes2::after{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black; 
+    bottom: -7%; 
+    left: 45%;
+    border: 5px solid green;  
+}
+.boxes2::before{
+    content: '';
+    position: absolute;
+    border-radius: 300%;
+    height: 10%;
+    width: 6%;
+    background-color: black; 
+    bottom: 95%; 
+    left: 45%;
+    border: 5px solid green;
+}
